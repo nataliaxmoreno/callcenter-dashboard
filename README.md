@@ -1,6 +1,8 @@
 # callcenter-dashboard
 This repository contains a Microsoft Excel dashboard that analyzes the calls received at a mock call center over the first quarter of 2021.
+
 ![Dashboard](https://github.com/nataliaxmoreno/callcenter-dashboard/blob/main/dashboard-callcenter.jpg)
+
 In this project, I highlighted my Excel visualization skills utilizing pivot tables, graphs, and slicers to create a dynamic dashboard that showcases the performance of the call center by month and team. The data used for this project was generated using the Mockaroo platform.
 
 ## VBA module: data cleaning
@@ -13,13 +15,13 @@ Using VBA code, I proceeded to clean up the data by:
 * Generating column with word count
 * Normalizing the customer satisfaction rate column with ordinal options
 
-## CHALLENGES AND HOW I OVERCAME THEM 
+### CHALLENGES AND HOW I OVERCAME THEM 
 The mock data was downloaded as 3 different Excel files to simulate the behavior of a real call center, where each file contained the data from a specific month.The first challenge was to write VBA code that consolidated different Excel files into a single table. Using Google search skills, I was able to find code that helped me to achieve that task. 
 
 Since I had to update the data and generate new columns, refreshing each one of the pivot tables was a time-consuming task. For that reason, I wrote VBA code that was able to automatically refresh the pivot tables every time the user went to the dashboard sheet.
 After designing the dashboard, it came to my attention that the donut graph's labels were misplaced each time the slicer was activated. This gave me the opportunity to explore my coding skills with a pivot table worksheet event that would automatically center the labels every time the slicer was activated.
 
-## EXCEL FILE CONTENT 
+### EXCEL FILE CONTENT 
 1. Dashboard
 KPIs:
 To showcase useful information for stakeholders and managers, I designed a dynamic dashboard with graphs that allow the user to get the current state of the following KPIs and metrics:
