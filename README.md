@@ -1,6 +1,6 @@
 # callcenter-dashboard
 This repository contains a Microsoft Excel dashboard that analyzes the calls received at a mock call center over the first quarter of 2021.
-![Dashboard]("https://github.com/nataliaxmoreno/callcenter-dashboard/blob/main/dashboard-callcenter.jpg")
+![Dashboard](https://github.com/nataliaxmoreno/callcenter-dashboard/blob/main/dashboard-callcenter.jpg)
 In this project, I highlighted my Excel visualization skills utilizing pivot tables, graphs, and slicers to create a dynamic dashboard that showcases the performance of the call center by month and team. The data used for this project was generated using the Mockaroo platform.
 
 ## VBA module: data cleaning
